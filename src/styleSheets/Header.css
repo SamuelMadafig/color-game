@@ -1,0 +1,54 @@
+@import url('../styleSheets/constants.css');
+
+
+.radio-btn{
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    display: inline-block;
+    position: relative;
+    background-color: #f1f1f1;
+    color: #666;
+    top: 10px;
+    height: 30px;
+    width: 30px;
+    border: 0;
+    border-radius: 50px;
+    cursor: pointer;     
+    margin: 0;
+    margin-right: 8px;
+    
+    outline: none;
+}
+
+.radio-btn:checked::before
+{
+     position: absolute;
+     font: 13px/1 'Open Sans', sans-serif;
+     left: 11px;
+     top: 7px;
+     content: '\02143';
+     transform: rotate(40deg);
+}
+
+
+/* .header-btn{
+    padding: 16px 32px;
+    margin: 16px;
+} */
+.main-menu-form{
+    width: 70%;
+    display: flex;
+    justify-content: space-around;
+}
+.main-container{
+    display: flex;
+    width: 100%;
+    background: rgb(201, 201, 201);
+    padding: 16px;
+    margin: 0;
+  
+}
+.correct-color{
+    font-size: 2rem;
+}

@@ -1,0 +1,24 @@
+@import url('../styleSheets/constants.css');
+
+.squares{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    
+
+}
+.board{
+    height: 600px;
+    background-color: rgb(224, 224, 224);
+    position: relative;
+}
+.submit-btn-container{
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+.submit-btn{
+    width: 100%;
+
+}

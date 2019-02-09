@@ -1,0 +1,14 @@
+@import url('../styleSheets/constants.css');
+.square{
+    width: 200px;
+    height: 200px;
+    display: inline-block;
+   margin: 32px auto;
+   border-radius: 16px;
+   transition-duration: 0.25s;
+   transition-property: border, ;
+}
+ .square:hover{
+    border: 4px solid rgb(0, 0, 0);
+
+} 
